@@ -199,11 +199,27 @@
             }
         },
         {
+            "Key": "3a3b0a09-0ea1-47f0-bb63-c4369613e6f8",
+            "Value": {
+                "id": "5826d0a9-54df-4c0c-a737-14b5937b8884",
+                "resourcePath": "objects\\obj_enemy_spitter_dead_without_head\\obj_enemy_spitter_dead_without_head.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a77620b-8c1f-4ae3-8c78-1942b859bc10",
             "Value": {
                 "id": "5d0e5801-cd00-4284-9290-958b06e63881",
                 "resourcePath": "rooms\\room01\\room01.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3acc1882-fe9a-4208-9416-d0bc5bb7a003",
+            "Value": {
+                "id": "bd2e60e6-d6fa-44e6-881e-bc820bfdfa7a",
+                "resourcePath": "objects\\obj_zombie_head_big\\obj_zombie_head_big.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -255,6 +271,22 @@
             }
         },
         {
+            "Key": "43c5de8b-d66a-4816-baaf-70e4a3b7a15c",
+            "Value": {
+                "id": "f52f3f7e-06c6-4422-96a3-174390e5e153",
+                "resourcePath": "views\\43c5de8b-d66a-4816-baaf-70e4a3b7a15c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "46e3afe9-aada-408a-8774-4bb9a4304619",
+            "Value": {
+                "id": "a662caff-4960-4adb-9343-c39f33e38dfc",
+                "resourcePath": "objects\\obj_enemy_dead_without_head\\obj_enemy_dead_without_head.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4acae9c8-e065-428e-b330-cc8387941835",
             "Value": {
                 "id": "7bbf261c-963d-4f07-838f-07b41eeac373",
@@ -298,7 +330,7 @@
             "Key": "5e9e2b2b-1092-4c17-9b24-40f2636bf9f6",
             "Value": {
                 "id": "361c6d95-c91e-4b7a-8d19-3a2c3df95718",
-                "resourcePath": "sprites\\spr_zombie_spitter_dead\\spr_zombie_spitter_dead.yy",
+                "resourcePath": "sprites\\spr_zombie_spitter_dead_without_head\\spr_zombie_spitter_dead_without_head.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -364,6 +396,14 @@
                 "id": "25910a71-6149-4e29-93ae-985580e3d077",
                 "resourcePath": "sounds\\snd_shotgun\\snd_shotgun.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6a90cbc9-53f3-4e59-b181-0c33effe8730",
+            "Value": {
+                "id": "42e9e7c1-11e6-473c-bb24-615ee594e7c3",
+                "resourcePath": "sprites\\spr_zombie_dead_spitter\\spr_zombie_dead_spitter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -535,6 +575,14 @@
             }
         },
         {
+            "Key": "a8e8e891-cc90-4aae-966e-7d90809eeb84",
+            "Value": {
+                "id": "4162459a-b796-43d8-b459-61c602012497",
+                "resourcePath": "sprites\\spr_zombie_dead_without_head\\spr_zombie_dead_without_head.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "a0dff4d3-4448-44b5-82bf-ba564750e6b5",
@@ -615,6 +663,14 @@
             }
         },
         {
+            "Key": "c2e08c31-6752-4d57-b117-1ce1b8973c62",
+            "Value": {
+                "id": "138018f3-0b91-491f-b1e4-e70f1cdc3265",
+                "resourcePath": "sprites\\spr_zombie_head\\spr_zombie_head.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c72329d3-31b5-4b8c-8571-9c7606db7276",
             "Value": {
                 "id": "bde2c613-c711-4d71-ba09-06c44719ce5a",
@@ -684,6 +740,14 @@
                 "id": "55b37962-da29-40e5-ad60-2b03f81987f5",
                 "resourcePath": "views\\d8aadf7b-67ba-449b-894d-04eb0309b888.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d9a8e735-7d77-41f9-ac28-dface8dec33a",
+            "Value": {
+                "id": "3884d7a8-bcd2-4e25-9f70-5b825990731f",
+                "resourcePath": "objects\\obj_zombie_head\\obj_zombie_head.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -804,6 +868,14 @@
                 "id": "726773b3-159c-49cf-90b7-cbdc337cfc47",
                 "resourcePath": "sounds\\intro_music\\intro_music.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ff0407db-6d2b-4a5b-8edb-53a17c375d38",
+            "Value": {
+                "id": "869c2a9c-83fe-4f66-811e-83d0bff2b022",
+                "resourcePath": "rooms\\room03\\room03.yy",
+                "resourceType": "GMRoom"
             }
         }
     ],

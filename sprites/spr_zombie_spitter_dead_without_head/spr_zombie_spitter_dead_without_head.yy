@@ -2,7 +2,7 @@
     "id": "5e9e2b2b-1092-4c17-9b24-40f2636bf9f6",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_zombie_spitter_dead",
+    "name": "spr_zombie_spitter_dead_without_head",
     "For3D": false,
     "HTile": false,
     "VTile": false,

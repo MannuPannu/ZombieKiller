@@ -212,8 +212,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "obj_enemy_dead",
+            "value": "obj_enemy_dead_without_head",
             "varName": "dead_obj",
+            "varType": 5
+        },
+        {
+            "id": "aa7ec9e1-e7ea-4aad-87e1-fef25c366284",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_zombie_head",
+            "varName": "head_obj",
             "varType": 5
         }
     ],

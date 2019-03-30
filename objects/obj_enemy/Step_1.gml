@@ -11,5 +11,15 @@ if(hp <= 0){
 		image_xscale = -sign(hsp) * other.size;
 		image_yscale = other.size;
 	}
+	
+	//Shoot of the head
+	var head = instance_create_layer(x, y, "Walls", head_obj);
+	
+	with(head){
+		direction = other.hitFrom;
+		hsp = lengthdir_x(5, direction);
+		vsp = lengthdir_y(7, direction) -7;
+		
+	}
 }
 

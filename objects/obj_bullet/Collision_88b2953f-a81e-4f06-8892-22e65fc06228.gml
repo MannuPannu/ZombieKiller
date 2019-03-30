@@ -19,26 +19,21 @@ part_emitter_burst( obj_blood_spray.FirstParticleSystem, first_emitter, obj_bloo
 
 
 //Paint blood on nearby tiles
+var blood_amount = irandom_range(1,3);
 
-var instance = collision_line(x, y, x + lengthdir_x(100, direction-45), y + lengthdir_y(100, direction-45), obj_wall, false, true)
+repeat(blood_amount){
+	var instance = collision_line(x, y, x + lengthdir_x(100, direction + irandom_range(-45, 45)), y + lengthdir_y(100, direction + irandom_range(-45, 45)), obj_wall, false, true)
 
-if(instance_exists(instance)){
-	
-	var blood_amount = irandom_range(1,2);
-	
-	repeat(blood_amount){
-		instance_create_layer(instance.x + random_range(-50, 50), instance.y + random_range(0, 15), "Bullets", obj_blood_splatter);
+	if(instance_exists(instance)){
+		instance_create_layer(instance.x + random_range(-50, 50), instance.y + random_range(10, 15), "Bullets", obj_blood_splatter);
 	}
 }
 
-var instance = collision_line(x, y, x + lengthdir_x(200, direction), y + lengthdir_y(200, direction), obj_wall, false, true)
+repeat(blood_amount){
+	var instance = collision_line(x, y, x + lengthdir_x(100, 0 + irandom_range(-45, 45)), y + lengthdir_y(100, 0 + irandom_range(-45, 45)), obj_wall, false, true)
 
-if(instance_exists(instance)){
-	
-	var blood_amount = irandom_range(2,3);
-	
-	repeat(blood_amount){
-		instance_create_layer(instance.x + random_range(-10, 10), instance.y + random_range(0, 5), "Bullets", obj_blood_splatter);
+	if(instance_exists(instance)){
+		instance_create_layer(instance.x + random_range(-50, 50), instance.bbox_top + random_range(10, 15), "Bullets", obj_blood_splatter);
 	}
 }
 
