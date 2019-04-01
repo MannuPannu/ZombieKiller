@@ -1,7 +1,15 @@
 /// @description Draw menu
 
-draw_set_font(fnt_menu);
 
+if(grow_title){
+	title_size_gain += 0.05;
+	title_offset_left -= 5;
+}
+
+draw_sprite_ext(sprite30, 1, 350 + title_offset_left, 25 + title_offset_left, 
+				0.9 * title_size_gain, 0.9 * title_size_gain, 0, c_white, 1);
+
+draw_set_font(fnt_menu2);
 draw_set_halign(fa_right);
 
 draw_set_valign(fa_bottom);
@@ -18,7 +26,7 @@ for(var i = 0; i < menu_length; i++){
 	}
 	
 	var xx = menu_x;
-	var yy = menu_y - (menu_itemheight * (i * 1.5));
+	var yy = menu_y - (menu_itemheight * (i * 2));
 	draw_set_color(c_black);
 	
 	draw_text(xx-offset, yy, txt);
@@ -28,8 +36,7 @@ for(var i = 0; i < menu_length; i++){
 	
 	draw_set_color(col);
 	
-	draw_text(xx, yy, txt);
-	
+	draw_text(xx, yy, txt);	
 }
 
 

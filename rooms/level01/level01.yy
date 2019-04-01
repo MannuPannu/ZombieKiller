@@ -9,10 +9,7 @@
     "instanceCreationOrderIDs": [
         "5d4e5a01-466f-43b6-aeff-ba0155e2a623",
         "febbf878-7c7b-49b7-9616-5a47af764427",
-        "aab0b61d-f94a-449e-9269-b28abf0f5b67",
-        "aeb0a9e1-8a98-4227-8c14-9582dfb971ff",
         "0b3e9823-02b6-4f47-84ee-cd0886e07701",
-        "d13e3199-ef61-4501-b40a-a69b069773a3",
         "a16f5fa7-4b71-4d05-89c9-e2e74b7912dd",
         "cf24cf77-a03f-4d0a-bffb-422990142e35",
         "9c242eab-bbae-4de6-abb0-704068f569ee",
@@ -77,6 +74,7 @@
         "f238f1d5-5be3-4608-a9e0-51f6d43855e1",
         "2d6abdeb-20c0-43f7-b6a1-3cc2f050a707",
         "9ff2537a-beb0-47a9-9e1b-0f30a5d49d52",
+        "aab0b61d-f94a-449e-9269-b28abf0f5b67",
         "a4bf6641-1b42-4f8b-98d7-11b8712dec2c",
         "fed103a3-5605-44ee-ae84-eceac89eb4ce",
         "1b826d48-35b9-4dc9-8504-3b685f409a7a",
@@ -146,7 +144,8 @@
         "7d1a37df-3468-4905-ab89-175d315271b2",
         "cc2b8af5-40e3-408a-9d2f-afcd82c08f3e",
         "f7e5c794-d77e-40bd-8415-a0ecb81b383e",
-        "0a912eda-35df-4d29-b1ef-e84d99cfc0a6"
+        "0a912eda-35df-4d29-b1ef-e84d99cfc0a6",
+        "7cefc42d-b9ae-42d8-852c-d702ee82029a"
     ],
     "IsDnD": false,
     "layers": [
@@ -245,7 +244,6 @@
 {"name": "inst_1DE832ED","id": "5d4e5a01-466f-43b6-aeff-ba0155e2a623","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1DE832ED","objId": "c9fd553c-d701-442b-adb5-1dd281892640","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1984,"y": 256},
 {"name": "inst_AC5F772","id": "febbf878-7c7b-49b7-9616-5a47af764427","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_AC5F772","objId": "92ca356b-befb-445d-81b6-097efa587fbc","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 128,"y": 32},
 {"name": "inst_771D493A","id": "0b3e9823-02b6-4f47-84ee-cd0886e07701","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_771D493A","objId": "b0c04632-dd6d-4faf-a96c-b6015f486928","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 608},
-{"name": "inst_33E8256B","id": "d13e3199-ef61-4501-b40a-a69b069773a3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_33E8256B","objId": "5fd74295-2503-415d-91dc-fb3ac83aa15d","properties": [{"id": "f84ecf69-dc64-427e-a56e-8a2d894cef7a","modelName": "GMOverriddenProperty","objectId": "5fd74295-2503-415d-91dc-fb3ac83aa15d","propertyId": "37e555ab-bf78-4146-b106-ce4e0cf60603","mvc": "1.0","value": "Watch out! Zombies ahead. Find means of defence!"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 320,"y": 576},
 {"name": "inst_5C280151","id": "a16f5fa7-4b71-4d05-89c9-e2e74b7912dd","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5C280151","objId": "8f7d7891-1b26-4403-ad66-1dd9b148fa35","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 128,"y": 640},
 {"name": "inst_6283AA60","id": "cf24cf77-a03f-4d0a-bffb-422990142e35","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6283AA60","objId": "8f7d7891-1b26-4403-ad66-1dd9b148fa35","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 160,"y": 640},
 {"name": "inst_6A7B2D9C","id": "9c242eab-bbae-4de6-abb0-704068f569ee","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6A7B2D9C","objId": "8f7d7891-1b26-4403-ad66-1dd9b148fa35","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 640},
@@ -405,7 +403,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_33E8256B","id": "7cefc42d-b9ae-42d8-852c-d702ee82029a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_33E8256B","objId": "5fd74295-2503-415d-91dc-fb3ac83aa15d","properties": [{"id": "1e57caa2-78c3-4a58-8db8-595559897f35","modelName": "GMOverriddenProperty","objectId": "5fd74295-2503-415d-91dc-fb3ac83aa15d","propertyId": "37e555ab-bf78-4146-b106-ce4e0cf60603","mvc": "1.0","value": "Watch out! Zombies ahead. Find means of defence!"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 320,"y": 576}
             ],
             "layers": [
 
@@ -490,7 +488,7 @@
             "inheritSubLayers": true,
             "inheritVisibility": true,
             "instances": [
-{"name": "inst_7D491A25","id": "aeb0a9e1-8a98-4227-8c14-9582dfb971ff","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": true,"inheritItemSettings": true,"IsDnD": false,"m_originalParentID": "c1146b15-d713-48fe-ae2a-112d9a47f36c","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7D491A25","objId": "f8ebd482-fbf4-4b8b-8198-546157366da0","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 64,"y": 64}
+
             ],
             "layers": [
 

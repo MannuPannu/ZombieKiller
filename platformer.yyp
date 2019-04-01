@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "16dc5f8a-cbd1-4669-98ec-c6a01eadee12",
+            "Value": {
+                "id": "4e130bda-7207-4e70-81eb-5aef23c883a2",
+                "resourcePath": "fonts\\fnt_menu2\\fnt_menu2.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "190c899a-c38b-4300-9ddf-a97e47878759",
             "Value": {
                 "id": "7bea30be-8ae5-424f-abe0-1615fa183f52",
@@ -764,6 +772,14 @@
                 "id": "1eaaf551-867b-44c3-b2c7-2b1fa71a84ec",
                 "resourcePath": "views\\cd41b716-d325-4dc0-955c-ec5e1cda1c00.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d360fbbe-3dfb-43fd-a2b7-e941de1f3aa3",
+            "Value": {
+                "id": "01a581e4-9ca4-481d-97d4-3a21af6762ba",
+                "resourcePath": "sprites\\sprite30\\sprite30.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

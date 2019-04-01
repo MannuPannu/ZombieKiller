@@ -27,11 +27,13 @@ if(menu_control){
 		menu_comitted = menu_cursor;
 		screen_shake(4, 30);
 		menu_control = false;
-		audio_play_sound(snd_death, 5, false);
+		
+		grow_title = true;
 	}
 }
 
 if(menu_x > gui_width+150 && (menu_comitted != -1)){
+	
 	switch(menu_comitted){
 		case 2: default:
 			slide_transition(TRANS_MODE.GOTO, level01);
@@ -47,7 +49,6 @@ if(menu_x > gui_width+150 && (menu_comitted != -1)){
 				
 				slide_transition(TRANS_MODE.GOTO, target);
 			}
-			
 		}
 		break;
 		case 0: game_end();

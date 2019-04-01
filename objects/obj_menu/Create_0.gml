@@ -26,7 +26,12 @@ menu[0] = "Quit";
 menu_length = array_length_1d(menu);
 menu_cursor = 2;
 
-slide_transition(TRANS_MODE.GOTO, level01);
+
+grow_title = false;
+title_size_gain = 1;
+title_offset_left = 0;
+
+//slide_transition(TRANS_MODE.GOTO, level01);
 
 
 
