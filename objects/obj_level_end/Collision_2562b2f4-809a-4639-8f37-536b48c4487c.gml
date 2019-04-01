@@ -3,7 +3,7 @@
 with(obj_player){
 	if(hascontrol){
 		hascontrol = false;
-		slide_transition(TRANS_MODE.GOTO, );
+		slide_transition(TRANS_MODE.NEXT);
 	}
 }
 

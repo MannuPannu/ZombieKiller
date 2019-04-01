@@ -15,6 +15,8 @@ if(hp <= 0){
 	//Shoot of the head
 	var head = instance_create_layer(x, y, "Walls", head_obj);
 	
+	audio_play_sound(snd_head_splat, 10, false);
+	
 	with(head){
 		direction = other.hitFrom;
 		hsp = lengthdir_x(5, direction);

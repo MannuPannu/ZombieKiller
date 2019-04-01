@@ -26,6 +26,8 @@ menu[0] = "Quit";
 menu_length = array_length_1d(menu);
 menu_cursor = 2;
 
+slide_transition(TRANS_MODE.GOTO, level01);
+
 
 
 

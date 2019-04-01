@@ -4,7 +4,7 @@ vsp += grv;
 grounded = place_meeting(x, y + 1, obj_wall);
 
 //dont walk of edges
-if(grounded && afraidofheights && (!place_meeting(x + hsp, y + 1, obj_wall))) {
+if(grounded && afraidofheights && (!place_meeting(x + hsp *2, y + 1, obj_wall))) {
 	hsp = -hsp;	
 }
 

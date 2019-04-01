@@ -12,10 +12,10 @@ w = string_width(text_current);
 
 //Destrou when done
 
-if(letters >= length && keyboard_check_pressed(vk_anykey))
+if(letters >= length)
 {
-	instance_destroy();
-	with(obj_camera){
-		follow = obj_player;
+	if(alarm[0] == -1){
+		alarm[0] = 3 * room_speed;
 	}
+	
 }

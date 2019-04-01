@@ -88,11 +88,17 @@ if(ds_list_size(blood_splat_sprites) < 20){
 		}
 		else if(current_col_dir == COL_DIR.BOTTOM){
 		
-		
 			bloodX = x;
 			bloodY = bbox_bottom;
 			bloodSplatAngle = 0;	
 			blood_splat_delay = blood_splat_delay_vertical;	
+			
+			if(!audio_is_playing(snd_bullet_flesh)){
+				
+				var splat = audio_play_sound(snd_bullet_flesh, 3, false);
+				audio_sound_gain(splat, 0.1, 0);
+				
+			}
 		}
 	
 		var blood_splat = instance_create_layer(bloodX, bloodY, "Bullets", obj_blood_splatter);	

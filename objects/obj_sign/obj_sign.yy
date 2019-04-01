@@ -5,13 +5,13 @@
     "name": "obj_sign",
     "eventList": [
         {
-            "id": "3ec9a47b-9126-4dc1-a543-b001b72cf4c4",
+            "id": "2afc2acd-cc79-44b6-8802-756062bb267e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 54,
-            "eventtype": 6,
+            "collisionObjectId": "b0c04632-dd6d-4faf-a96c-b6015f486928",
+            "enumb": 0,
+            "eventtype": 4,
             "m_owner": "5fd74295-2503-415d-91dc-fb3ac83aa15d"
         }
     ],
