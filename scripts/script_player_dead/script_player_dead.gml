@@ -7,6 +7,8 @@ if(isDead){
 
 visible = false;
 hascontrol = false;
+hsp = 0;
+vsp = 0;
 isDead = true;
 
 with(obj_gun) {
@@ -19,7 +21,8 @@ deadPlayer = instance_create_layer(x, y, "Player", obj_player_dead);
 var bulletDirX = other.x;
 var bulletDirY = other.y;
 
-	with(deadPlayer){
+with(deadPlayer){
+	
 	direction = point_direction(bulletDirX, bulletDirY, x, y);	
 	hsp = lengthdir_x(6, direction);
 	vsp = lengthdir_y(4, direction)-2;

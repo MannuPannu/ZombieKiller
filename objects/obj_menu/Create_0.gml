@@ -14,7 +14,7 @@ menu_x_target = gui_width - gui_margin;
 
 menu_speed = 25; //lower is faster
 
-menu_font = fnt_menu;
+
 menu_itemheight = font_get_size(fnt_menu);
 menu_comitted = -1;
 menu_control = true;
@@ -24,6 +24,9 @@ menu[1] = "Continue";
 menu[0] = "Quit";
 
 menu_length = array_length_1d(menu);
+
+menu_top = menu_y - ((menu_itemheight * 1.5) * menu_length);
+
 menu_cursor = 2;
 
 

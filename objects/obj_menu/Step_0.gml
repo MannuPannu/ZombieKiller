@@ -30,6 +30,21 @@ if(menu_control){
 		
 		grow_title = true;
 	}
+	
+	var mouse_y_gui = device_mouse_y_to_gui(0);
+	if (mouse_y_gui < menu_y) && (mouse_y_gui > menu_top)
+	{
+		menu_cursor = (menu_y - mouse_y_gui) div (menu_itemheight * 1.5);
+		
+		if(mouse_check_button_pressed(mb_left)){
+			menu_x_target = gui_width + 200;
+			menu_comitted = menu_cursor;
+			screen_shake(4, 30);
+			menu_control = false;
+		
+			grow_title = true;
+		}
+	}
 }
 
 if(menu_x > gui_width+150 && (menu_comitted != -1)){

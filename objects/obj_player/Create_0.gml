@@ -1,11 +1,13 @@
 //Player is invis first, then start marker sets visible true
-visible = false;
+
 randomize();
 
 enum WEAPON {
 	SHOTGUN,
 	MACHINE_GUN
 }
+
+obj_camera.follow = id;
 
 isDead = false;
 

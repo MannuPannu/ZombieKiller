@@ -15,7 +15,7 @@ draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
 
 for(var i = 0; i < menu_length; i++){
-	var offset = 2;
+	var offset = 1.5;
 	var txt = menu[i];
 	
 	if(menu_cursor == i) {
@@ -26,7 +26,7 @@ for(var i = 0; i < menu_length; i++){
 	}
 	
 	var xx = menu_x;
-	var yy = menu_y - (menu_itemheight * (i * 2));
+	var yy = menu_y - (menu_itemheight * (i * 1.5));
 	draw_set_color(c_black);
 	
 	draw_text(xx-offset, yy, txt);
