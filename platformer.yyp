@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "10b55128-74b4-45fd-a5b3-cf8ce21464d9",
+            "Value": {
+                "id": "b83f676d-fd27-4d07-8ffd-dc2e24be715e",
+                "resourcePath": "objects\\obj_game_controller\\obj_game_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11749824-0db6-4624-9596-d23b2e224a7b",
             "Value": {
                 "id": "75854dcf-65c9-4226-aa12-e81e25bd887d",
@@ -236,14 +244,6 @@
                 "id": "5826d0a9-54df-4c0c-a737-14b5937b8884",
                 "resourcePath": "objects\\obj_enemy_spitter_dead_without_head\\obj_enemy_spitter_dead_without_head.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "3a77620b-8c1f-4ae3-8c78-1942b859bc10",
-            "Value": {
-                "id": "5d0e5801-cd00-4284-9290-958b06e63881",
-                "resourcePath": "rooms\\Levels\\Levels.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
