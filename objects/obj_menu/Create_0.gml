@@ -31,7 +31,7 @@ grow_title = false;
 title_size_gain = 1;
 title_offset_left = 0;
 
-//slide_transition(TRANS_MODE.GOTO, level01);
+//slide_transition(TRANS_MODE.GOTO, room02);
 
 
 

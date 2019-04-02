@@ -39,5 +39,7 @@ for(var i = 0; i < menu_length; i++){
 	draw_text(xx, yy, txt);	
 }
 
+draw_set_color(c_black);
 
+draw_rectangle(gui_width, 0, gui_width+300, gui_height, false);
 

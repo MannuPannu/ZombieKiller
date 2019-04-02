@@ -1,4 +1,4 @@
-/// @description Control menu
+	/// @description Control menu
 
 //Item ease in
 
@@ -36,7 +36,7 @@ if(menu_x > gui_width+150 && (menu_comitted != -1)){
 	
 	switch(menu_comitted){
 		case 2: default:
-			slide_transition(TRANS_MODE.GOTO, level01);
+			slide_transition(TRANS_MODE.GOTO, room01);
 			break;
 		case 1:
 		{

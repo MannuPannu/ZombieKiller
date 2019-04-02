@@ -1,8 +1,13 @@
+obj_player.isDead = false;
 
+
+obj_player.visible = true;
 obj_player.x = x;
 obj_player.y = y;
 
 obj_player.hascontrol = true;
+
+obj_camera.follow = obj_player.id;
 
 //Make it remember weapon when new level starts
 var weapon = ds_list_find_value(obj_player.weapons, obj_player.current_weapon_index);

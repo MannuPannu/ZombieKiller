@@ -1,9 +1,13 @@
+//Player is invis first, then start marker sets visible true
+visible = false;
 randomize();
 
 enum WEAPON {
 	SHOTGUN,
 	MACHINE_GUN
 }
+
+isDead = false;
 
 hsp = 0;
 vsp = 0;
