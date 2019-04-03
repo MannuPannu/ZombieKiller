@@ -13,7 +13,6 @@ yTo = ystart;
 shake_length = 240;
 shake_magnitude = 8;
 shake_remain = 0;
-buff = 32;
 
 
 
