@@ -13,7 +13,7 @@ obj_camera.follow = obj_player.id;
 var weapon = ds_list_find_value(obj_player.weapons, obj_player.current_weapon_index);
 	
 switch(weapon){
-	case(WEAPON.MACHINE_GUN):
+	case(WEAPON.MACHINE_GUN): 
 		if(!instance_exists(obj_machinegun)){
 			obj_player.gun = instance_create_layer(x, y, "Gun", obj_machinegun);	
 		}
@@ -28,4 +28,17 @@ switch(weapon){
 			
 		break;
 }
+
+//Autosave
+
+//Overwrite old save
+if (file_exists(SAVEFILE)){
+	file_delete(SAVEFILE);	
+}
+
+////Create new save
+var file = file_text_open_write(SAVEFILE);
+file_text_write_real(file, room);
+file_text_close(file);
+
 

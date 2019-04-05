@@ -9,6 +9,8 @@ enum WEAPON {
 
 obj_camera.follow = id;
 
+visible = false;
+
 isDead = false;
 
 hsp = 0;
@@ -30,7 +32,8 @@ canJump = 0;
 
 gun = noone;
 
-
+gunkickX = 0;
+gunkickY = 0;
 
 
 

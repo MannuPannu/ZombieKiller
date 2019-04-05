@@ -34,7 +34,6 @@ if((mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderrb)) && (f
 	
 	audio_sound_pitch(shot_sound, choose(0.8, 1.0, 1.2));
 	audio_play_sound(shot_sound, 5, false);
-	
 }
 
 
@@ -48,9 +47,13 @@ if(fire ){
 	
 	with(shell){
 		speed = 18;
-		direction = other.image_angle + 120 * other.image_yscale;
-		
+		direction = other.image_angle + 120 * other.image_yscale;		
 		gravity = 2;
+	}
+	
+	with(obj_player){
+		gunkickX = lengthdir_x(other.gun_kick_x, other.image_angle + 180);
+		gunkickY = lengthdir_y(other.gun_kick_y, other.image_angle + 180);
 	}
 }
 

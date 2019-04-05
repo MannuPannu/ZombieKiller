@@ -30,7 +30,8 @@ if(hascontrol){
 
 	var moveH = key_right - key_left;
 
-	hsp = moveH * walkspd;
+	hsp = (moveH * walkspd) + gunkickX;
+	gunkickX = 0;
 
 	look_left = false;
 	
@@ -86,7 +87,8 @@ if(hascontrol){
 
 	y += vsp;
 	
-	vsp += grv; 
+	vsp += grv + gunkickY; 
+	gunkickY = 0;
 	
 #endregion
 

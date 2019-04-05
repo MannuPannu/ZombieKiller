@@ -139,6 +139,34 @@
             "value": "18",
             "varName": "spd",
             "varType": 0
+        },
+        {
+            "id": "d5e35fbe-5440-4ac4-9fac-3767e8c6d49f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gun_kick_x",
+            "varType": 0
+        },
+        {
+            "id": "6f31c3e3-8fd0-4f62-8253-14d750f92d70",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gun_kick_y",
+            "varType": 0
         }
     ],
     "solid": false,

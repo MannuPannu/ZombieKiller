@@ -23,12 +23,7 @@ if(menu_control){
 	}
 	
 	if(keyboard_check_pressed(vk_enter)){
-		menu_x_target = gui_width + 200;
-		menu_comitted = menu_cursor;
-		screen_shake(4, 30);
-		menu_control = false;
-		
-		grow_title = true;
+		script_startgame();
 	}
 	
 	var mouse_y_gui = device_mouse_y_to_gui(0);
@@ -37,12 +32,7 @@ if(menu_control){
 		menu_cursor = (menu_y - mouse_y_gui) div (menu_itemheight * 1.5);
 		
 		if(mouse_check_button_pressed(mb_left)){
-			menu_x_target = gui_width + 200;
-			menu_comitted = menu_cursor;
-			screen_shake(4, 30);
-			menu_control = false;
-		
-			grow_title = true;
+			script_startgame();
 		}
 	}
 }
