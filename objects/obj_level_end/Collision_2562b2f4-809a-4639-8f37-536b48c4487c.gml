@@ -3,7 +3,10 @@
 with(obj_player){
 	if(hascontrol){
 		hascontrol = false;
-		slide_transition(TRANS_MODE.NEXT);
+		
+		if(other.target_room == noone){	
+			slide_transition(TRANS_MODE.NEXT);
+		}
 	}
 }
 

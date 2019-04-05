@@ -42,4 +42,5 @@ for(var i = 0; i < menu_length; i++){
 draw_set_color(c_black);
 
 draw_rectangle(gui_width, 0, gui_width+300, gui_height, false);
+draw_rectangle(0, 750, gui_width, 900, false);
 
